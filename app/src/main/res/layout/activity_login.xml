@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Masukkan Email"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Masukkan Password"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun?"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Disini"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
